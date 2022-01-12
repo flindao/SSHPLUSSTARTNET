@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-#--------@kiritosshxd-----------#
+#--------@startnetplus-----------#
 source ShellBot.sh
 touch lista
 [[ -z $1 ]] && {
