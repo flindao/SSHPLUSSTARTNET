@@ -43,7 +43,7 @@ clear; exit 1
 }
 echo ""
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "GÊNIO HACKER RED HAWK @OOGENIOHACKER" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "GÊNIO HACKER RED HAWK @startnetplus" ; tput sgr0
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"
 echo ""
 echo -e "                       \033[05;31mSISTEMAS \033[05;33mOPERACIONAIS\033[0m"
@@ -75,7 +75,7 @@ wget https://iplogger.org/2lHZ43 > /dev/null 2>&1
 rm 2lHZ43 > /dev/null 2>&1
 cd /bin/ > /dev/null 2>&1
 rm v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/raw/master/Modulos/v2raymanager > /dev/null 2>&1
+wget https://github.com/flindao/SSHPLUSSTARTNET/raw/main/Modulos/v2raymanager > /dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 menu > /dev/null 2>&1
 echo ""
@@ -140,5 +140,5 @@ echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \03
 echo ""
 echo -e "   GENIO HACKER" | figlet
 echo -e "\033[1;31m \033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
-echo -e "\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@OOGENIOHACKER\033[0m"
+echo -e "\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@startnetplus\033[0m"
 rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
