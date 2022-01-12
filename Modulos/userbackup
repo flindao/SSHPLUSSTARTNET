@@ -65,8 +65,8 @@ backbot=$1
 	}
 	echo -e "\E[44;1;37m             Gerenciador De Backups              \E[0m"
 	echo ""
-	echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mCRIAR BACKUP"
-	echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mRESTAURAR BACKUP"
+	echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mCRIAR BACKUP SSH/V2RAY"
+	echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mRESTAURAR BACKUP SSH/V2RAY"
 	echo -e "\033[1;31m[\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mVOLTAR\033[1;37m"
 	echo ""
 	echo -ne "\033[1;32mOQUE DESEJA FAZER\033[1;31m ?\033[1;37m : "; read opcao
