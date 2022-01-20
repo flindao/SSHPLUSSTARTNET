@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "ABRIR PORTAS BADVPN 7295 7200 7296 7297 7298 7299 7300 7345"
+
+
+echo "DIGITE SIM" ; read x
+ 
+case "$x" in 
+   sim | s)
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7345 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7295 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7296 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7297 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7298 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7299 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
