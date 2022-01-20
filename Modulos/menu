@@ -352,7 +352,7 @@ echo ""
    delscript
    ;;
    32)
-   badvpnmultiportas
+   badmultiportas
    ;;
    r)
    menu
