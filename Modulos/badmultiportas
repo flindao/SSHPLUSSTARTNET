@@ -15,3 +15,4 @@ screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7297 --max-clients 
 screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7298 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
 screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7299 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
 screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 16384 --max-connections-for-client 16384 --client-socket-sndbuf 16384 --udp-mtu 9000
+echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
