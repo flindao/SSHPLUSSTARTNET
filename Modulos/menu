@@ -248,6 +248,7 @@ echo -e "\033[1;34m[\033[1;37m16 •\033[1;34m]\033[1;37m ➩ \033[1;33mMONITOR 
 echo -e "\033[1;34m[\033[1;37m17 •\033[1;34m]\033[1;37m ➩ \033[1;33mBLOQUEAR TORRENT $stsf \033[0;32m"
 echo -e "\033[1;34m[\033[1;37m18 •\033[1;34m]\033[1;37m ➩ \033[1;33mLIMITADOR $stsl \033[0;32m"
 echo -e "\033[1;34m[\033[1;37m19 •\033[1;34m]\033[1;37m ➩ \033[1;33mBAD VPN $stsu \033[0;32m"
+echo -e "\033[1;34m[\033[1;37m32 •\033[1;34m]\033[1;37m ➩ \033[1;33mBAD VPN MULTIPORTAS $stsu \033[0;32m"
 echo -e "\033[1;34m[\033[1;37m20 •\033[1;34m]\033[1;37m ➩ \033[1;33mAUTO MENU $autm \033[0;32m"
 echo -e "\033[1;34m[\033[1;37m21 •\033[1;34m]\033[1;37m ➩ \033[1;33mBOT TELEGRAM $stsbot \033[0;32m"
 echo -e "\033[1;34m[\033[1;37m22 •\033[1;34m]\033[1;37m ➩ \033[1;33mBOT TESTE $stsbotteste \033[0;32m"
@@ -349,6 +350,9 @@ echo ""
    31)
    clear
    delscript
+   ;;
+   32)
+   badvpnmultiportas
    ;;
    r)
    menu
