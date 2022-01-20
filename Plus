@@ -108,6 +108,9 @@ echo -e "    \033[1;33mATUALIZAÇÕES COSTUMA DEMORAR UM POUCO!\033[0m"
 echo ""
 fun_attlist () {
 apt-get update -y
+cd /bin/ && rm - f badmultiportas 
+cd /bin/ && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/Modulos/badmultiportas > /dev/null 2>&1
+cd /bin/ && chmod 777 +x badmultiportas
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
