@@ -43,7 +43,7 @@ clear; exit 1
 }
 echo ""
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "GÊNIO HACKER RED HAWK @startnetplus" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "STARTNET - @startnetplus" ; tput sgr0
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"
 echo ""
 echo -e "                       \033[05;31mSISTEMAS \033[05;33mOPERACIONAIS\033[0m"
