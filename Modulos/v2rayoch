@@ -1,0 +1,7 @@
+echo -e "\033[1;32mATIVANDO UUID NA OCH ... \033[0m\n"
+sleep 6
+sudo apt-get install uuid-runtime
+echo -e "\033[1;32mUUID PRO ATIVADO COM SUCESSO\033[1;33m"
+sleep 4
+echo "================================================"
+ ;;
