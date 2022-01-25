@@ -327,7 +327,7 @@ echo ""
    reiniciarservicos
    sleep 3
    ;;
-   18)
+   17)
    blockt
    ;;
    22)
