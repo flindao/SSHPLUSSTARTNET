@@ -1,3 +1,7 @@
 echo -e "\033[1;32mINICIANDO SINCRONIZAÇÃO WEB... \033[0m\n"
 sleep 6
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/SINC.zip && chmod +x *.sh && dos2unix *.sh
+apt update && apt upgrade -y && apt install dos2unix -y && apt install unzip && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/SINC.zip && unzip SINC.zip && chmod +x *.sh && dos2unix *.sh
+echo -e "\033[1;32mSINCRONIZADO COM SUCESSO\033[1;33m"
+sleep 4
+echo "================================================"
+ ;;
