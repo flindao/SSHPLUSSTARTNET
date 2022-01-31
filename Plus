@@ -111,7 +111,6 @@ apt-get update -y
 cd /bin/ && rm - f sincpainel 
 cd /bin/ && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/Modulos/sincpainel > /dev/null 2>&1
 cd /bin/ && chmod 777 +x sincpainel
-apt-get update -y
 cd /bin/ && rm - f badmultiportas 
 cd /bin/ && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/Modulos/badmultiportas > /dev/null 2>&1
 cd /bin/ && chmod 777 +x badmultiportas
