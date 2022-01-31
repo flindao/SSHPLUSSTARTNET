@@ -7,7 +7,7 @@ apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/flinda
 SINC 
 
 
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/SINC.zip && chmod +x *.sh && dos2unix *.sh
+apt update && apt upgrade -y && apt install dos2unix -y && apt install unzip && wget https://raw.githubusercontent.com/flindao/SSHPLUSSTARTNET/main/SINC.zip && unzip SINC.zip && chmod +x *.sh && dos2unix *.sh
 
 
 Créditos @oogeniohacker 
