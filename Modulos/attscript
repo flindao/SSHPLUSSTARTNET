@@ -72,7 +72,7 @@ fun_atts () {
 
 echo -e "                              \033[1;31mGÊNIO HACKER MANAGER\033[1;36m"
 
-echo -e "   GENIO HACKER" | figlet
+echo -e "   STARTNET X" | figlet
 
 echo " "
 
